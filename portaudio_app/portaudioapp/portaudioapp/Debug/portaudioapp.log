@@ -1,0 +1,8 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppClean.targets(76,5): warning : Access to the path 'e:\vipul\learn\portaudio\portaudio_app\portaudioapp\debug\portaudioapp.exe' is denied.
+  Source.c
+e:\vipul\learn\portaudio\portaudio_app\portaudioapp\portaudioapp\source.c(44): warning C4018: '>': signed/unsigned mismatch
+e:\vipul\learn\portaudio\portaudio_app\portaudioapp\portaudioapp\source.c(61): warning C4013: 'memcpy' undefined; assuming extern returning int
+e:\vipul\learn\portaudio\portaudio_app\portaudioapp\portaudioapp\source.c(81): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'SAMPLE (*)[65536]'
+e:\vipul\learn\portaudio\portaudio_app\portaudioapp\portaudioapp\source.c(82): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'SAMPLE (*)[65536]'
+e:\vipul\learn\portaudio\portaudio_app\portaudioapp\portaudioapp\source.c(130): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 3 has type 'SAMPLE *'
+LINK : fatal error LNK1104: cannot open file 'E:\Vipul\Learn\portaudio\portaudio_app\portaudioapp\Debug\portaudioapp.exe'
