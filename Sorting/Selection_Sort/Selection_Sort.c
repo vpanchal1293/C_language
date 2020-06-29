@@ -1,15 +1,25 @@
 #include <stdio.h>
 void selection_sort(int array[],int len);
 void selection_sort_recursion(int array[],int len);
-
-int main()
+void print_array(int array[] , int len);
+int main(void)
 {
-    printf("Hello World");
     int array[] = {64, 25, 12, 22, 11}, len = 5; 
+    
+    printf("Before Sorting\n");
     print_array(array , len);
     selection_sort(array , len);
-    //selectionSort(array , len);
+    printf("Aftre Sorting\n");
+    
     print_array(array , len);
+    
+    
+    int array_2[] = {64, 25, 12, 22, 11}; 
+    printf("Before Sorting\n");
+    print_array(array_2 , len);
+    selection_sort_recursion(array_2 , len);
+    printf("Aftre Sorting\n");
+    print_array(array_2 , len);
     return 0;
 }
 
@@ -28,13 +38,11 @@ void selection_sort(int array[],int len)
             min_index = j;
         }
         
-        
         if(min_index != i)
         {
             // if no Update in min_index then swap the element
-            array[min_index] = array[j] + array[min_index] - (array[j] = array[min_index]);
+            array[min_index] = array[i] + array[min_index] - (array[i] = array[min_index]);
         }
-        
     }
 }
 
@@ -56,7 +64,6 @@ void selection_sort_recursion(int array[],int len)
             min_index = i;
         }
         
-        
         if(min_index != 0)
         {
             // if no Update in min_index then swap the element
@@ -66,7 +73,7 @@ void selection_sort_recursion(int array[],int len)
 }
 
 
-print_array(int array[] , int len)
+void print_array(int array[] , int len)
 {
     int i = 0;
     for(i = 0; i < len; i++)
