@@ -5,11 +5,11 @@ So array wil be devided in to two part sorted array and unsorted array
 
 
 Sorted sublist			Unsorted sublist		Least element in unsorted list
-( )						(11, 25, 12, 22, 64)	11
-(11)					(25, 12, 22, 64)		12
-(11, 12)				(25, 22, 64)			22
-(11, 12, 22)			(25, 64)				25
-(11, 12, 22, 25)		(64)					64
+( )				(11, 25, 12, 22, 64)		11
+(11)				(25, 12, 22, 64)		12
+(11, 12)			(25, 22, 64)			22
+(11, 12, 22)			(25, 64)			25
+(11, 12, 22, 25)		(64)				64
 (11, 12, 22, 25, 64)	( )	
 
 
