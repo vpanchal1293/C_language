@@ -15,16 +15,16 @@ Sorted sublist			Unsorted sublist		Least element in unsorted list
 
 0 1 2 3 4
 
-min_index = 0
+min_index = 0;
 1 2 3 4
 
-min_index = 1
+min_index = 1;
 2 3 4
 
-min_index = 2
+min_index = 2;
 3 4
 
-min_index = 3
+min_index = 3;
 4
 
 Outer_loop = 0 to 3
