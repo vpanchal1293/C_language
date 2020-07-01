@@ -26,7 +26,7 @@ int main(void)
 void Insertion_sort(int array[],int len)
 {
     int i = 0, j = 0, key = 0;
-    for(i = 0; i < len; i++)
+    for(i = 1; i < len; i++)
     {
         key = array[i];
         j = i - 1;
