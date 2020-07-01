@@ -31,13 +31,13 @@ and elements from 11 to 13 will move one position ahead of their current positio
 
 --------------------
 12, 11, 13, 5, 6
-	--
+    --
 11, 12, 13, 5, 6
-		--
+        --
 11, 12, 13, 5, 6
-			--
+	   --
 5, 11, 12, 13, 6
-			   --
+	      --
 --------------------
 End of sorting--
 5, 6, 11, 12, 13
